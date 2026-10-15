@@ -1,0 +1,13 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+  background: #f4f6fb;
+  color: #1e2330;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { font-family: inherit; cursor: pointer; }
+input { font-family: inherit; }
